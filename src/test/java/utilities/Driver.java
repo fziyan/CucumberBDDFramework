@@ -48,6 +48,7 @@ public class Driver {
             driver.close();
             driver = null; // bazen otomasyon driver kapandıktan sonra browser açabiliyor. Bunun önüne geçmek için null'a çektim.
         }
+        System.out.println("BROWSER CLOSED");
     }
 
     public static void quitDriver(){

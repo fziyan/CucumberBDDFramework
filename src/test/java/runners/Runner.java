@@ -14,8 +14,8 @@ import org.junit.runner.RunWith;
         },
         features = "src/test/resources/features",
         glue = {"stepDefinitions","hook"},
-        tags = "@senaryo1 or @senaryo2 or @senaryo3 or @senaryo4",
-        //tags = "@Scenario1",
+        //tags = "@senaryo1 or @senaryo2 or @senaryo3 or @senaryo4",
+        tags = "@ScenarioGuru02",
         dryRun = false
 )
 

@@ -2,13 +2,11 @@ package stepDefinitions;
 
 import io.cucumber.java.en.*;
 import org.junit.Assert;
-import org.openqa.selenium.JavascriptExecutor;
 import pages.DemoQaHomePage;
 import utilities.ConfigReader;
 import utilities.Driver;
 import utilities.ReusableMethods;
 
-import static utilities.Driver.driver;
 
 public class DemoQaStepDefinitions {
     DemoQaHomePage demoQaHomePage = new DemoQaHomePage();

@@ -1,36 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="19.322" tests="4" skipped="0" failures="0" errors="0">
-<testcase classname="User Login Test with username and password" name="User Login into system" time="7.411">
+<testsuite name="Cucumber" time="7.946" tests="5" skipped="0" failures="0" errors="0">
+<testcase classname="Classwork" name="TC02 kullanici sutun basligi ile liste alabilmeli - Example #1.1" time="5.16">
 <system-out><![CDATA[
-Given User navigate homepage................................................passed
-When User enter username password and click submit button...................passed
-Then User see the product page title........................................passed
-Then User close the browser.................................................passed
+Given kullanici "guruUrl" anasayfasinda.....................................passed
+And "Company" sutunundaki tum degerleri yazdirir............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="User Login Test with username and password" name="User should be fail login" time="7.699">
+<testcase classname="Classwork" name="TC02 kullanici sutun basligi ile liste alabilmeli - Example #1.2" time="0.601">
 <system-out><![CDATA[
-Given User navigate homepage................................................passed
-When Username password information is entered incorrectly and submit button.passed
-Then User see validation error message for username and password field......passed
-Then User close the browser.................................................passed
+Given kullanici "guruUrl" anasayfasinda.....................................passed
+And "Group" sutunundaki tum degerleri yazdirir..............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="User Login Test with username and password" name="User enter the true username" time="2.084">
+<testcase classname="Classwork" name="TC02 kullanici sutun basligi ile liste alabilmeli - Example #1.3" time="0.719">
 <system-out><![CDATA[
-Given User navigate homepage................................................passed
-When Username enter valid and password enter incorrect......................passed
-Then user see validation error for password field...........................passed
-Then User close the browser.................................................passed
+Given kullanici "guruUrl" anasayfasinda.....................................passed
+And "Prev Close (Rs)" sutunundaki tum degerleri yazdirir....................passed
 ]]></system-out>
 </testcase>
-<testcase classname="User Login Test with username and password" name="User not enter the username and enter password" time="1.96">
+<testcase classname="Classwork" name="TC02 kullanici sutun basligi ile liste alabilmeli - Example #1.4" time="0.663">
 <system-out><![CDATA[
-Given User navigate homepage................................................passed
-When User does not enter username and enter password........................passed
-When User click login button................................................passed
-Then user see validation error for empty username field.....................passed
-Then User close the browser.................................................passed
+Given kullanici "guruUrl" anasayfasinda.....................................passed
+And "Current Price (Rs)" sutunundaki tum degerleri yazdirir.................passed
+]]></system-out>
+</testcase>
+<testcase classname="Classwork" name="TC02 kullanici sutun basligi ile liste alabilmeli - Example #1.5" time="0.646">
+<system-out><![CDATA[
+Given kullanici "guruUrl" anasayfasinda.....................................passed
+And "% Change" sutunundaki tum degerleri yazdirir...........................passed
 ]]></system-out>
 </testcase>
 </testsuite>
